@@ -1,13 +1,13 @@
 public class Main {
 
     public static void main(String[] args) {
-        int amount = 100;  // у клиента на счете
-        int contributed = 1000;  // сумма пополнения
-        int bonus = 100;  // бонус за пополнение
+        int amount = 100; // у клиента на счете
+        int contributed = 1550; // сумма пополнения
+        int bonus = 100; // бонус за пополнение
 
-        boolean isReffil = true;
+        boolean isMore = true;
 
-        if (isReffil) {
+        if (isMore) {
             int ruble = 1;
         } else {
             int ruble = 0;
@@ -17,6 +17,3 @@ public class Main {
         System.out.println(amount + contributed + (contributed / bonus) + "итоговая сумма");
     }
 }
-
-
-
